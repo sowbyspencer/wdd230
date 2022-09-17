@@ -1,29 +1,35 @@
   body {
+    font-family: 'Courier New', Courier, monospace;
+
     max-width: 500px;
     margin: 0 auto;
     background-color: white;
     padding: 1em;
   }
 
-  .header-grid{
+  header{
     display: grid;
     grid-template-columns: 4fr;
     grid-template-rows: auto;
     background-color: royalblue;
     padding: 1em;
-    border-radius: 25px;
     text-shadow: 2px 2px 10px #000000;
     color: white;
     text-align: center;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: #555555;
+    border-style: solid;
   }
 
-  .head-image{
+  header img{
     grid-column: 1 / 2;
     width: 150px;
     border-radius: 25px;
   }
 
-  .header-name{
+  header h1{
     grid-column: 2 / 4;
     padding: 1em 1em 1em 0;
   }
@@ -32,12 +38,14 @@
     text-align: center;
     background-color: royalblue;
     color: white;
+    box-shadow: 0 0 5px #000000;
     border-radius: 25px;
-    padding: 1px;
-    box-shadow: 0 0 10px #000000;
+    border-width: 1px;
+    border-color: #555555;
+    border-style: solid;
   }
 
-  .updated{
+  #updated-el{
     font-size: small;
-    color:beige;
+    color: yellow;
   }
