@@ -1,0 +1,20 @@
+@media (min-width: 32.5em) {
+
+    header{
+        grid-template-columns: 4fr;
+        padding: 1em;
+      }
+
+    header img{
+        grid-column: 1 / 2;
+        width: 150px;
+      }
+
+    header h1{
+        grid-column: 2 / 4;
+        padding: 1em 1em 1em 0;
+        margin: 1em 0em 1em 0em;
+      }
+
+
+}

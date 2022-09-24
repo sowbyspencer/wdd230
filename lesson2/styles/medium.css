@@ -1,0 +1,15 @@
+@media (min-width: 824px) {
+  main{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .one{
+    grid-column: 1 / 2;
+  }
+  .two{
+    grid-column: 2 / 3;
+  }
+  .three{
+    grid-column: 1 / 3;
+  }
+}
