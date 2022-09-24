@@ -47,7 +47,7 @@
     border-color: #555555;
     border-width: 1px;
     border-style: solid;
-    width: 260px;
+    min-width: 260px;
     height: auto;
   }
 
