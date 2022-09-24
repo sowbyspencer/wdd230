@@ -1,7 +1,7 @@
   /*Smallest*/
   body {
     font-family: 'Roboto Mono', Courier, monospace;
-    min-width: 280px;
+    min-width: 270px;
     margin: 0 auto;
     background-color: #fafafa;
     padding: 1em;
@@ -19,7 +19,7 @@
     border-color: #555555;
     border-style: solid;
     margin: 1em;
-    min-width: 270px;
+    min-width: 260px;
   }
 
   main{
@@ -40,7 +40,7 @@
     border-style: solid;
     margin: 0.5em;
     align-content: flex-start;
-    min-width: 270px;
+    min-width: 260px;
   }
 
   section img{
@@ -48,7 +48,7 @@
     border-color: #555555;
     border-width: 1px;
     border-style: solid;
-    min-width: 260px;
+    width: 80%;
     height: auto;
   }
 
