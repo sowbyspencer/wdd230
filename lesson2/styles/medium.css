@@ -3,6 +3,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  h1, h2{
+    margin: 1em 0;
+  }
+
   .one{
     grid-column: 1 / 2;
   }

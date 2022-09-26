@@ -18,12 +18,17 @@
     border-color: #555555;
     border-style: solid;
     margin: 0.5em;
+    min-width: 180px;
   }
 
   main{
     display: grid;
   }
   
+  h1, h2{
+    margin: 0.25em 0;
+  }
+
   h3, h4{
     padding: 0.5em;
     margin: 0;
@@ -70,6 +75,7 @@
     border-color: #555555;
     border-style: solid;
     margin: 0.5em;
+    min-width: 180px;
   }
 
   #updated-el{
