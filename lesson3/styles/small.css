@@ -9,7 +9,7 @@ body {
   }
   
   header, footer {
-    background-color: #0081AF;
+    background-color: #4169E1;
     padding: 1em;
     margin: 0;
     color: white;
@@ -37,8 +37,10 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: large;
+    color: black;
     border-top: solid white 1px;
     border-bottom: solid white 1px;
+    text-shadow: 0 0 5px white;
   }
 
   nav ul li a:hover {
@@ -74,7 +76,7 @@ body {
   }
 
   #colors li:nth-child(4) {
-    background-color: #0081AF;
+    background-color: #4169E1;
   }
 
   #logo {
