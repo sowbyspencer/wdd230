@@ -1,0 +1,83 @@
+ /*Smallest*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', Courier, monospace;
+  }
+  
+  header, footer {
+    background-color: #0081AF;
+    padding: 1em;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-family: 'Roboto Mono', Courier, monospace;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav ul li a {
+    background-color: #C9B1BD;
+    color: white;
+    padding: 1em;
+    margin: 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+  }
+
+  nav ul li a:hover {
+    background-color: #B49594;
+  }
+
+  main {
+    padding: 1em;
+  }
+
+  #colors {
+    margin: 0;
+    padding: 0;
+  }
+
+  #colors li{
+    border: solid black 1px;
+    margin: 0.5em;
+    padding: 1em;
+    list-style-type: none;
+  }
+
+  #colors li:nth-child(1) {
+    background-color: #FFFFFF;
+  }
+
+  #colors li:nth-child(2) {
+    background-color: #B49594;
+  }
+
+  #colors li:nth-child(3) {
+    background-color: #C9B1BD;
+  }
+
+  #colors li:nth-child(4) {
+    background-color: #0081AF;
+  }
+
+
+footer {
+  text-align: center;
+}

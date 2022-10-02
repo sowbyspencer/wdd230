@@ -1,0 +1,16 @@
+@media (min-width: 833px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border-top: none;
+        border-bottom: none;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+    }
+}
