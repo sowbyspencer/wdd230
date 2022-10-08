@@ -168,3 +168,8 @@
   footer p {
     margin: 0.25em;
   }
+
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
