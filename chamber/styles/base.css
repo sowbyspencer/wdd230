@@ -1,0 +1,170 @@
+ /*Smallest*/
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    font-size:small
+  }
+
+  header{
+    display: grid;
+    grid-template-columns: 90px auto auto;
+  }
+
+  header, footer {
+    background-color: #4169E1;
+    padding: 1em;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-family: 'Roboto Mono', Courier, monospace;
+  }
+
+  #header_text{
+    margin: 0.5em;
+    align-self: center;
+  }
+
+  #socials{
+    align-self: center;
+    text-align: right;
+  }
+
+  #socials a{
+    text-decoration: none;
+    color: white;
+    margin: 0.5em 0;
+  }
+
+  #socials img{
+    width: 24px;
+    height: auto;
+  }
+
+  header h1, header h2{
+    margin: 0;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', Courier, monospace;
+  }
+
+  h3 {
+    margin: 0.5em;
+  }
+
+  nav {
+    text-align: center;
+    margin-top: 1em;
+    grid-column: 1 / 4;
+    background-color: #C9B1BD;
+  }
+
+  nav button{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    text-align: left;
+    width: 100%;
+  }
+
+  nav button:hover{
+    background-color: #B49594;
+  }
+
+  #hamburger-btn span:nth-child(1){
+    display: block;
+  }
+  #hamburger-btn span:nth-child(2){
+    display: none;
+  }
+  #hamburger-btn.open span:nth-child(1){
+    display: none;
+  }
+  #hamburger-btn.open span:nth-child(2){
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav ul.open{
+    display: block;
+  }
+
+  nav ul li a {
+    color: white;
+    padding: 0.5em;
+    margin: 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+    text-shadow: 0 0 5px white;
+  }
+
+  nav ul li a:hover {
+    background-color: #B49594;
+  }
+
+  main {
+    padding: 1em;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+  }
+
+  section {
+    background-color:#ddd;
+    border: solid #999 1px;
+    margin: 0.25em 0.5em;
+    padding: 0.5em 0.5em;
+  }
+
+  #join{
+    display: none;
+  }
+
+  #spotlights{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #spotlights section{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #spot0, #spot3{
+    display: none;
+  }
+
+  .logo {
+    width: 90px;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  footer h1{
+    margin: 0;
+    font-size:larger;
+  }
+
+  footer h2{
+    margin: 0.5em 0 ;
+    font-size:larger;
+  }
+
+  footer p {
+    margin: 0.25em;
+  }
