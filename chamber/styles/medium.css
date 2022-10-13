@@ -5,6 +5,7 @@
     
     header{
         grid-template-columns: 125px auto;
+        position: fixed;
     }
 
     #socials a{
@@ -39,6 +40,7 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        top: 230px;
     }
 
     #hero{
@@ -75,6 +77,7 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         background-color: #4169E1;
+        top: 230px;
     }
 
     #footer_name{
