@@ -1,7 +1,7 @@
 @media (min-width: 975px){
     main {
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr auto auto;
     }
 
     #socials{
@@ -30,7 +30,7 @@
         grid-column: 3 / 4;
         grid-row: 1 / 4;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
     }
 
     #news{
