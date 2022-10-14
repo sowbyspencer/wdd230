@@ -172,7 +172,7 @@
 
   #hero{
     position: relative;
-    background-image: url("//chamber/images/800.png");
+    background-image: url("../images/800.png");
     background-position: center;
   }
 
