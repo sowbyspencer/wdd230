@@ -27,9 +27,13 @@ hBtn.onclick = toggleMenu;
 
 const banner = document.querySelector("#banner");
 const bannerBtn = document.getElementById("bannerBtn")
+const main = document.querySelector("main")
+const footer = document.querySelector("footer")
 
 function toggleBanner() {
     banner.classList.toggle("display");
+    main.classList.toggle("display");
+    footer.classList.toggle("display")
 }
 
 bannerBtn.addEventListener("click", function(){

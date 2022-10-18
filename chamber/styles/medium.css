@@ -2,7 +2,11 @@
     body{
         font-size: medium;
     }
-    
+
+    #banner{
+        font-size: medium;
+    }
+
     header{
         grid-template-columns: 125px auto;
         position: fixed;
