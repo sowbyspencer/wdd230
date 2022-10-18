@@ -14,15 +14,18 @@
   #banner{
     display: none;
     position: absolute;
-    top: 5px;
+    top: 2px;
     width: 100%;
-    min-height: 100px;
     box-sizing: border-box;
     background-color: rgba(255, 0, 0, 0.7);
     font-size: large;
-    padding: 1em;
     border-radius: 10px;
-    border: solid;
+    /* border: solid 1px; */
+    grid-column: 1/4;
+  }
+
+  #banner h3{
+    margin: 0;
   }
 
   #banner.display{
@@ -31,9 +34,10 @@
 
   .display button{
     position: absolute;
-    top: 10px;
+    top: 2px;
     right: 10px;
     color: red;
+    font-size: small;
   }
 
   header{

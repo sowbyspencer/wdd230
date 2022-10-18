@@ -23,12 +23,14 @@ function toggleMenu() {
 const hBtn = document.querySelector("#hamburger-btn");
 hBtn.onclick = toggleMenu;
 
-function toggleBanner() {
-    banner.classList.toggle("display");
-}
+
 
 const banner = document.querySelector("#banner");
 const bannerBtn = document.getElementById("bannerBtn")
+
+function toggleBanner() {
+    banner.classList.toggle("display");
+}
 
 bannerBtn.addEventListener("click", function(){
     toggleBanner();
