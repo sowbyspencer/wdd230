@@ -243,6 +243,7 @@
 
   #spotlights section a{
     display: block;
+    padding: 0.75em;
   }
 
   #spot0, #spot3{
@@ -278,5 +279,5 @@
     display: block;
     text-decoration: none;
     color: white;
-    margin: 0.25em;
+    padding: 0.75em;
   }
