@@ -223,6 +223,11 @@
     text-align: center;
   }
 
+  #weather img{
+    height: 125px;
+    width: auto;
+  }
+
   #spotlights{
     display: grid;
     grid-template-rows: auto auto;
