@@ -32,8 +32,6 @@ const footer = document.querySelector("footer");
 
 function toggleBanner() {
     banner.classList.toggle("display");
-    main.classList.toggle("display");
-    footer.classList.toggle("display");
 }
 
 bannerBtn.addEventListener("click", function(){

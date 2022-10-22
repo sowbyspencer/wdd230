@@ -1,7 +1,7 @@
 @media (min-width: 975px){
     main {
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr auto auto;
+        /* grid-template-rows: auto auto auto; */
     }
 
     #socials{
@@ -20,6 +20,12 @@
     #hero{
         grid-column: 2 / 3;
         grid-row: 1 / 3;
+    }
+
+    #hero img{
+        width: 50vw;
+        height: 100vh;
+        object-fit: cover;
     }
 
     #weather{

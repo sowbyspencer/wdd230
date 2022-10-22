@@ -9,7 +9,7 @@
 
     header{
         grid-template-columns: 125px auto;
-        position: fixed;
+
     }
 
     header h1{
@@ -51,12 +51,17 @@
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr auto auto auto 1fr;
-        top: 230px;
+        /* grid-template-rows: auto auto auto auto auto; */
+
     }
 
     #hero{
         grid-column: 1 / 3;
+    }
+
+    #hero img{
+        width:100%;
+        height: auto;
     }
 
     #news{
@@ -89,7 +94,7 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         background-color: #4169E1;
-        top: 230px;
+
     }
 
     #footer_name{
