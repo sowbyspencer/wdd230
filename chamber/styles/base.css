@@ -179,7 +179,6 @@
   #hero{
     position: relative;
     background-size: cover;
-    height: 372px;
     /*I would prefer to do it this way*/
     /* background-image: url(../images/sunset.jpg);
     background-position: center; */
