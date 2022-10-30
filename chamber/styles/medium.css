@@ -87,6 +87,28 @@
         grid-column: 1 / 3;
     }
 
+    #visit-info{
+        grid-row: 2 / 3;
+    }
+
+    #discover-images{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    #discover-images img:hover{
+        box-shadow: 0 0 50px #333;
+    }
+
+    #discover-images img[data-src] {
+        filter: blur(0.2em);
+    }
+      
+    #discover-images img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+
     .logo {
         width: 125px;
     }

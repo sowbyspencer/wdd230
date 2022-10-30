@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pleasant View Chamber of Commerce Home Page">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="pvcoc_48.ico">
+        <title>Pleasant View Chamber of Commerce</title>
+    </head>
+    <body>
+        <header>
+            <div id="banner">
+                <h3>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button id="bannerBtn" aria-label="Close Banner">X</button></h3>
+            </div>
+            <img class="logo" src="images/pv_chamber_of_commerce.webp" alt="Pleasant View Chamber of Commerce Logo">
+            <div id="header_text">
+                <h1>Pleasant View</h1>
+                <h2>Chamber of Commerce</h2>
+                <span id="date"></span>
+            </div>
+            <div id="socials">
+                <a href="https://www.facebook.com/" target="blank"><img src="images/fb_icon.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/in/spencer-sowby/" target="blank"><img src="images/linkedin_icon.png" alt="LinkedIn"></a>
+            </div>
+            <nav>
+                <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primary-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li id="current"><a href="discover.html">Discover</a></li>
+                    <li><a href="index.html">Directory</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="stats">
+                <h3>Demographics</h3>
+                <h4>What industry are our businesses?</h4>
+                <ul>
+                    <li>28% Business, Finance & Professional Services</li>
+                    <li>22% Hospitality, Resturants, Arts & Entertainment</li>
+                    <li>14% Government, Education & Comunity Organizations</li>
+                    <li>12% Construction, Manufacturing & Industrial Supplies</li>
+                    <li>11% Health Care & Personal Services</li>
+                    <li>6% Automotive & Transporation</li>
+                    <li>5% Real Estate & Home Services</li>
+                    <li>2% Agriculture, Veterinary & Envirinment</li>
+                </ul>
+                <h4>What type of Orginazations do we have?</h4>
+                <ul>
+                    <li>39% Small Businesses</li>
+                    <li>33% Mid - Large Businesses</li>
+                    <li>13% Sole Proprietorships</li>
+                    <li>8% Public Orginazations</li>
+                    <li>7% Non-Profit Organizations</li>
+                    <li>>1% Individuals</li>
+                </ul>
+            </section>
+            <section id="discover-images">
+                <h3>Discover Pleasant View</h3>
+                <div>
+                    <picture><img src="images/pic-a.jpg" data-src="images/pic-a.jpg" alt="" loading="lazy" width="600" height="450"></picture>
+                    <p>A misty Morning as the sun rises.</p>
+                </div>
+                <div>
+                    <picture><img src="images/pic-b.jpg" data-src="images/pic-b.jpg" alt="" loading="lazy" width="600" height="450"></picture>
+                    <p>A 19th century church.</p>
+                </div>
+                <div>
+                    <picture><img src="images/pic-c.jpg" data-src="images/pic-c.jpg" alt="" loading="lazy" width="600" height="450"></picture>
+                    <p>Sunset over willard Bay</p>
+                </div>
+                <div>
+                    <picture><img src="images/pic-d.jpg" data-src="images/pic-d.jpg" alt="" loading="lazy" width="600" height="450"></picture>
+                    <p>A man standing on a winter day.</p>
+                </div>
+                <div>
+                    <picture><img src="images/pic-e.jpg" data-src="images/pic-e.jpg" alt="" loading="lazy" width="600" height="450"></picture>
+                    <p>Our wide city streets.</p>
+                </div>
+                <div>
+                    <picture><img src="images/pic-f.jpg" data-src="images/pic-f.jpg" alt="" loading="lazy" width="600" height="450"></picture>
+                    <p>A mountain lake.</p>
+                </div>
+            </section>
+            
+            <section id="visit-info"><h3 id="user-visit">VISIT INFO</h3></section>
+            
+        </main>
+        <footer>
+            <div id="footer_name">
+                <img class="logo" src="images/pv_chamber_of_commerce.webp" alt="Pleasant View Chamber of Commerce Logo">
+                <div id="footer_text">
+                    <h1>Pleasant View</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+            <div id="footer_contact">
+                <a href="tel:12345678910">1 (234) 567-8910</a>
+                <a href="mailto:pvchamber@gmail.com" target="_blank">pvchamber@gmail.com</a>
+                <a href="https://www.google.com/maps/place/Pleasant+View,+UT/@41.3228659,-112.0197251,14z/data=!3m1!4b1!4m5!3m4!1s0x87530d2a31462d63:0x51cd4ffcdbd4a47b!8m2!3d41.3182755!4d-111.9921649" target="blank">&#128205; Location Map</a>
+            </div>
+            <div id="base_footer">
+                <hr>
+                <p>&copy; <span id="year"></span> Pleasant View Chamber of Commerce</p>
+                <p>Spencer Sowby</p>
+                <p>WDD 230 project</p>
+                <p id="updated-el">Last Updated: <span id="timestamp"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+<!-- Does a team manage the website? 
+What kind of demographic data and statistics whould be usefull in a chamber site?
+Area?
+Member Count?
+
+What are common questions?  -->

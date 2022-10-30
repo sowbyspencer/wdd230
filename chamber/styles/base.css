@@ -90,6 +90,7 @@
 
   h1, h2, h3, h4 {
     font-family: 'Roboto Mono', Courier, monospace;
+    margin: 0.5em;
   }
 
   h3 {
@@ -254,6 +255,40 @@
 
   #spot0, #spot3{
     display: none;
+  }
+
+  #discover-images{
+    text-align: center;
+  }
+  
+  #discover-images section{
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #discover-images img{
+    max-width: 90%;
+    height: auto;
+    margin: 0 1em;
+  }
+
+  #discover-images li{
+    list-style: none;
+  }
+
+  #stats{
+    font-size: large;
+  }
+
+  #stats li{
+    padding: 0.5em;
+  }
+
+  #visit-info{
+    grid-row: -2 / -1;
+    grid-column-start: 1;
+    grid-column-end: -1;
   }
 
   .logo {
