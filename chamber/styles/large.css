@@ -61,6 +61,20 @@
         grid-column: 3 / 5;
     }
 
+    #member-benefits{}
+
+    #contact-us{
+        grid-column: 3/5;
+    }
+    
+    #thank{
+        grid-column: 2/4;
+    }
+
+    #mlevel label {
+        padding: .4em 0;
+    }
+
     #base_footer{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }

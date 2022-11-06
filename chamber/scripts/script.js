@@ -49,8 +49,6 @@ if (day === 1 || day === 2){
 
 
 
-
-
 // A list of images with the data-src attribute.
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
@@ -101,3 +99,6 @@ if (lastVisit !== 0){
 }
 
 localStorage.setItem("last-visit", Date.now())
+
+
+

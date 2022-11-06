@@ -291,6 +291,67 @@
     grid-column-end: -1;
   }
 
+  form fieldset{
+    margin: 2em 0;
+    border: 1px solid black;
+    padding: 0.5em;
+    
+  }
+
+  form legend{
+    margin: 0 1em;
+    padding: 0 0.5em;
+  }
+
+  label{
+    display: block;
+  }
+
+  #form-info label{
+    padding-top: 1em;
+  }
+
+  #form-info input{
+    padding: 0.75em;
+    width: 88%;
+    display: block;
+  }
+
+  #mlevel label{
+    padding: 0.75em;
+  }
+
+  #mlevel input{
+    margin-right: 0.5em;
+    vertical-align: top;
+  }
+
+  form input{
+    border-width: 1px;
+    border-style: inset;
+    border-color: rgb(155, 155, 155);
+    border-left: rgb(155, 155, 155) solid 4px;
+  }
+
+  form input:required{
+    border-left: red solid 4px;
+  }
+
+  form input:required:valid{
+    border-left: green solid 4px;
+  }
+
+  #description{
+    width: 90%;
+    height: 120px;
+  }
+
+  #submit{
+    padding: 0.75em;
+    border-radius: 3px;
+    border: 1px solid black;
+  }
+
   .logo {
     width: 90px;
     height: auto;

@@ -109,6 +109,10 @@
         transition: filter 0.5s;
     }
 
+    #contact-us, #thank, #member-benefits{
+        grid-column: 1/3;
+    }
+
     .logo {
         width: 125px;
     }
