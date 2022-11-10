@@ -3,15 +3,12 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
-fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
-  });
+async function getProphets(){
+  const response = await fetch(requestURL);
+  const data = await response.json();
+  const prophets = data.prophets
+  prophets.forEach(displayProphets);
+}
 
 function displayProphets(prophet) {
     // Create elements to add to the document
@@ -40,3 +37,5 @@ function displayProphets(prophet) {
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
   }
+
+  getProphets()
