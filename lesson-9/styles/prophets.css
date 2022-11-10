@@ -1,0 +1,44 @@
+h1, h2{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0.35rem;
+    text-align: center;
+    color: rgb(30, 17, 102);
+    text-shadow: 0 0 10px #FFF;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    max-width: 1200px;
+    margin: auto;
+    padding: 0.35rem;
+    border: 1px solid #bbb;
+}
+
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(181, 203, 250);
+  }
+
+  p{
+    padding: 0;
+    margin: 0.25em;
+  }
+
+  img {
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 30px #3f3f3f;
+    height: 200px;
+    border: 1px solid #333333;
+  }
+
+  footer{
+    text-align: center;
+  }
