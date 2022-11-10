@@ -333,11 +333,11 @@
     border-left: rgb(155, 155, 155) solid 4px;
   }
 
-  form input:required{
+  form input:invalid{
     border-left: red solid 4px;
   }
 
-  form input:required:valid{
+  form input:required:valid, form input.pattern:valid{
     border-left: green solid 4px;
   }
 

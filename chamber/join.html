@@ -63,11 +63,11 @@
                         <label for="lname">Last Name*: 
                         <input type="text" id="lname" name="lname" placeholder="Doe" required> </label>
                         <label for="btitle">Possition Title: 
-                        <input type="text" id="btitle" name="btitle" placeholder="CFO"> </label>
+                        <input type="text" id="btitle" name="btitle" placeholder="CFO" class="pattern" pattern="[a-zA-Z\- ]{7,}" title="Only accepts alpha characters, hyphens, and spaces with a minimum of seven characters."> </label>
                         <label for="email">Email*: 
                         <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required> </label>
                         <label for="tel">Phone*: 
-                        <input type="tel" id="tel" name="tel" placeholder="1235551234" required> </label>
+                        <input type="tel" id="tel" name="tel" placeholder="1235551234" required pattern="[0-9]{7,}"> </label>
                         <label for="bname">Business Name: 
                         <input type="text" id="bname" name="bname"> </label>
                     </fieldset>
