@@ -242,7 +242,7 @@
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.7);
   }
 
-  #spotlights section img{
+  #spotlights section img, .cards img{
     width: 150px;
     height: auto;
     margin: auto;
@@ -350,6 +350,66 @@
     padding: 0.75em;
     border-radius: 3px;
     border: 1px solid black;
+  }
+
+  .members-menu{
+    align-items: center;
+    margin: 1em auto;
+    grid-column: 1/2;
+    font-size: xx-large
+  }
+
+  .cards{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0.25em;
+    border: 1px solid #bbb;
+    min-height: 800px;
+    background-color:#ddd;
+  }
+
+  .cards section {
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.25em;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.7);
+  }
+
+  .cards img {
+    max-width: 325px;
+  }
+
+  .cards a, .cards h2{
+    text-align: center;
+    padding: 0.5em;
+  }
+
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list section:nth-child(even){
+    background-color: whitesmoke;
+  }
+
+  .list section, .list a, .list h2{
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 0.5em;
+    font-size: medium;
+    font-weight:100;
+  }
+
+  .list img{
+    display: none;
   }
 
   .logo {

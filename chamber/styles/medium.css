@@ -113,6 +113,20 @@
         grid-column: 1/3;
     }
 
+    .cards, .members-menu{
+        grid-column: 1/3;
+        grid-template-columns: repeat( auto-fit, minmax(350px, 1fr));
+    }
+
+    .cards section{
+        margin: 0.5em;
+    }
+
+    .list section, .list a, .list h2{
+        margin: 0;
+        padding: 0.25em;
+    }
+
     .logo {
         width: 125px;
     }

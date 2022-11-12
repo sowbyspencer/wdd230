@@ -1,0 +1,78 @@
+{
+    "members": [
+      {
+        "name": "Pretty Pants Powerwashing",
+        "phone": "3856005258",
+        "email": "pppwashing5@gmail.com",
+        "website": "prettypantspowerwashing.com",
+        "image": "images/ppp_logo.png",
+        "membership": "gold"
+      },
+      {
+        "name": "Mountain Donuts",
+        "phone": "8016863681",
+        "email": "mountaindonuts1@gmail.com",
+        "website": "mountaindonuts.com/",
+        "image": "images/mtn_donuts.png",
+        "membership": "gold"
+      },
+      {
+        "name": "Running 4 You",
+        "phone": "2345678910",
+        "email": "running4you@gmail.com",
+        "website": "running4you.com",
+        "image": "images/running_4_you.png",
+        "membership": "gold"
+      
+      },
+      {
+        "name": "Sistema",
+        "phone": "8266246838",
+        "email": "sistema@gmail.com",
+        "website": "sistema.com",
+        "image": "images/sistema.png",
+        "membership": "silver"
+      },
+      {
+        "name": "NEOTACT",
+        "phone": "2969570973",
+        "email": "neotact@gmail.com",
+        "website": "netact.com/",
+        "image": "images/neotact.png",
+        "membership": "silver"
+      },
+      {
+        "name": "Ravack",
+        "phone": "1580978464",
+        "email": "ravack@gmail.com",
+        "website": "ravack.com",
+        "image": "images/revack.png",
+        "membership": "bronze"
+      
+      },
+      {
+        "name": "3volve",
+        "phone": "3251721903",
+        "email": "3volve@gmail.com",
+        "website": "3volve.com",
+        "image": "images/3volve.png",
+        "membership": "silver"
+      },
+      {
+        "name": "Ionex",
+        "phone": "8310340941",
+        "email": "ionex@gmail.com",
+        "website": "mountaindonuts.com/",
+        "image": "images/ionex.png",
+        "membership": "bronze"
+      },
+      {
+        "name": "We've",
+        "phone": "1666469081",
+        "email": "weave@gmail.com",
+        "website": "weave.com",
+        "image": "images/we've.png",
+        "membership": "np"
+      }
+    ]
+  }

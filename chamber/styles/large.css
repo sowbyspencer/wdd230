@@ -61,8 +61,6 @@
         grid-column: 3 / 5;
     }
 
-    #member-benefits{}
-
     #contact-us{
         grid-column: 3/5;
     }
@@ -73,6 +71,32 @@
 
     #mlevel label {
         padding: .4em 0;
+    }
+
+    .cards{
+        width: 80%;
+        align-self: center;
+        margin: auto;
+    }
+    .cards, .members-menu{
+        grid-column: 1/5;
+    }
+
+    .cards section{
+        margin: 1em;
+    }
+
+    .list section{
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+    }
+
+    .list a, .list h2{
+        display: inline;
+        margin: 0.25em;
+        padding: 0.25em;
     }
 
     #base_footer{
