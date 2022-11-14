@@ -1,0 +1,13 @@
+h1{
+    text-shadow: 1px 1px 20px rgb(86, 51, 211);
+    border-bottom: 1px solid #aaa;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-left: 1em;
+}
