@@ -41,7 +41,7 @@ bannerBtn.addEventListener("click", function(){
 // Display banner if it s Monday or Tuesday
 if (day === 1 || day === 2){
     toggleBanner();
-    console.log(day);
+    // console.log(day); // For console testing
 }
 
 

@@ -223,11 +223,17 @@
 
   #weather{
     text-align: center;
+    font-size: medium;
+    font-weight: bold;
   }
 
   #weather img{
-    height: 125px;
+    height: 100px;
     width: auto;
+  }
+
+  #weather p {
+    margin: 0.5em;
   }
 
   #spotlights{

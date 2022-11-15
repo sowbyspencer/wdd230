@@ -29,6 +29,11 @@
 
     #weather{
         grid-column: 1 / 2;
+        font-size: large
+    }
+
+    #weather p {
+        margin: 1em;
     }
 
     #spotlights{
