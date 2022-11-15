@@ -41,7 +41,7 @@ async function apiFetch() {
 // select HTML elements in the document
 const currentTemp = document.querySelector('#temp');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.querySelector('#condition');
 const cloudCondit = document.querySelector('#clouds');
 const windSpeedEl = document.querySelector('#wind-speed')
 const windChillEl = document.querySelector("#wind-chill")
