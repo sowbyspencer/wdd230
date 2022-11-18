@@ -260,7 +260,7 @@
     padding: 0.75em;
   }
 
-  #spot0, #spot3{
+  #spotlights h3, #spotlights section:nth-child(4){
     display: none;
   }
 

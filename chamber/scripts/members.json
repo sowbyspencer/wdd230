@@ -6,6 +6,7 @@
         "email": "pppwashing5@gmail.com",
         "website": "prettypantspowerwashing.com",
         "image": "images/ppp_logo.png",
+        "tagline": "WE CLEAN ANYTHING THAT CAN DRY",
         "membership": "gold"
       },
       {
@@ -14,6 +15,7 @@
         "email": "mountaindonuts1@gmail.com",
         "website": "mountaindonuts.com/",
         "image": "images/mtn_donuts.png",
+        "tagline": "BUILD YOUR OWN DONUTS",
         "membership": "gold"
       },
       {
@@ -22,8 +24,8 @@
         "email": "running4you@gmail.com",
         "website": "running4you.com",
         "image": "images/running_4_you.png",
+        "tagline": "We run to you for your running needs.",
         "membership": "gold"
-      
       },
       {
         "name": "Sistema",
@@ -31,6 +33,7 @@
         "email": "sistema@gmail.com",
         "website": "sistema.com",
         "image": "images/sistema.png",
+        "tagline": "Systems for your business",
         "membership": "silver"
       },
       {
@@ -39,6 +42,7 @@
         "email": "neotact@gmail.com",
         "website": "netact.com/",
         "image": "images/neotact.png",
+        "tagline": "",
         "membership": "silver"
       },
       {
@@ -47,8 +51,8 @@
         "email": "ravack@gmail.com",
         "website": "ravack.com",
         "image": "images/revack.png",
+        "tagline": "Adventure via RockClimbing",
         "membership": "bronze"
-      
       },
       {
         "name": "3volve",
@@ -56,6 +60,7 @@
         "email": "3volve@gmail.com",
         "website": "3volve.com",
         "image": "images/3volve.png",
+        "tagline": "Evolution Is The Future!",
         "membership": "silver"
       },
       {
@@ -64,6 +69,7 @@
         "email": "ionex@gmail.com",
         "website": "mountaindonuts.com/",
         "image": "images/ionex.png",
+        "tagline": "",
         "membership": "bronze"
       },
       {
@@ -72,6 +78,7 @@
         "email": "weave@gmail.com",
         "website": "weave.com",
         "image": "images/we've.png",
+        "tagline": "Weaving Communnities Together",
         "membership": "np"
       }
     ]
