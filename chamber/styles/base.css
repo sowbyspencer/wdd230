@@ -181,9 +181,6 @@
   #hero{
     position: relative;
     background-size: cover;
-    /*I would prefer to do it this way*/
-    /* background-image: url(../images/sunset.jpg);
-    background-position: center; */
   }
 
   .hero-title{
@@ -416,6 +413,24 @@
 
   .list img{
     display: none;
+  }
+
+  #contact_info{
+    grid-row: 1/2;
+  }
+
+  #map h2{
+    display: none;
+  }
+
+  iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  #contact_info h4, #contact_info p{
+    margin: 0.5em;
   }
 
   .logo {
