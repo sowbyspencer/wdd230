@@ -9,7 +9,6 @@
 
     header{
         grid-template-columns: 125px auto;
-
     }
 
     header h1{
@@ -51,8 +50,6 @@
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        /* grid-template-rows: auto auto auto auto auto; */
-
     }
 
     #hero{
@@ -125,6 +122,10 @@
     .list section, .list a, .list h2{
         margin: 0;
         padding: 0.25em;
+    }
+
+    #map{
+        grid-row: 1/2;
     }
 
     .logo {
