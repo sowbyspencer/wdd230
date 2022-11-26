@@ -14,6 +14,9 @@ async function getMembers(){
   let primeMembers = members.filter(member => member.membership == "gold" || member.membership == "silver");
   let spotMembers = [];
 
+  /* Looping through the primeMembers array 3 times and randomly selecting a member from the array and
+  adding it to the spotMembers array. It is also removing the member from the primeMembers array so
+  that it is not selected again. */
   for (let i = 0; i < 3; i++){
     rand = Math.floor(Math.random() * primeMembers.length);
     spotMembers.push(primeMembers[rand])
