@@ -7,6 +7,26 @@
         margin-right: 3em;
     }
 
+    nav button {
+        display: none;
+    }
+    
+    nav ul#primary-nav {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        padding: 1em;
+        border-top: none;
+        border-bottom: none;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+    }
+
     section{
         margin: 0.25em;
     }
