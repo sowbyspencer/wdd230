@@ -1,3 +1,6 @@
+/* The code is checking to see if the user has visited the site before. If they have, it will
+display the number of days since their last visit. If they haven't, it will display a message saying
+that this is their first visit. */
 const userVisitEl = document.querySelector("#user-visit")
 
 let lastVisit = Number(window.localStorage.getItem("last-visit"))

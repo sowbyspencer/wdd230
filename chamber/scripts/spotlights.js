@@ -1,8 +1,12 @@
-//The example of using JSON
-
+/* Creating a variable called requestURL and setting it equal to the JSON file. It is also creating a
+variable called cards and setting it equal to the class cards. */
 const requestURL = 'scripts/members.json';
 const cards = document.querySelector('.cards');
 
+/**
+ * It takes the data from the API, filters out the members that are not gold or silver, then randomly
+ * selects 3 members from the filtered list and displays them on the page.
+ */
 async function getMembers(){
   const response = await fetch(requestURL);
   const data = await response.json();
@@ -19,6 +23,14 @@ async function getMembers(){
   spotMembers.forEach(displaySpotlights);
 }
 
+/**
+ * The function creates a section element, adds the member's name to an h3 element, adds the member's
+ * image to an img element, adds the member's tagline to a p element, adds the member's email to an a
+ * element, adds the member's phone number to an a element, adds the member's website to an a element,
+ * and then adds the section element to the spotlights div element.
+ * @param member - an object that contains the member's name, image, tagline, email, phone, and
+ * website.
+ */
 function displaySpotlights(member) {
     // Create elements to add to the document
     let card = document.createElement('section');
@@ -74,6 +86,11 @@ function displaySpotlights(member) {
   
   getMembers()
 
+  /**
+   * It takes a string of numbers and returns a formatted phone number.
+   * @param phoneNumberString - The phone number string to be formatted.
+   * @returns the phone number in the format (xxx) xxx-xxxx.
+   */
   function formatPhoneNumber(phoneNumberString) {
     var cleaned = ('' + phoneNumberString).replace(/\D/g, '');
     var match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
