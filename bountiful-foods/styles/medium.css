@@ -1,0 +1,42 @@
+@media (min-width: 600px) {
+    header {
+        position: sticky;
+        top: 0;
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+    
+    nav button {
+        display: none;
+    }
+
+    nav ul#primary-nav {
+        display: flex;
+    }
+
+    nav{
+        padding-left: 1em;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        padding: 1em 0;
+        border-top: none;
+        border-bottom: none;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+        text-align: center;
+    }
+
+    nav ul li a:hover,
+    nav button:hover,
+    #current {
+        border-top: none;
+        border-bottom: none;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+    }
+}

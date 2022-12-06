@@ -1,0 +1,146 @@
+/*Smallest*/
+:root {
+    /* --bgColor: rgb(245, 245, 220); */
+    /* --headerFooterColor: rgb(201, 177, 189); */
+    --bgColor: rgb(255, 255, 255);
+    --headerFooterColor: rgb(243, 157, 157);
+}
+
+body {
+    background-color: var(--bgColor);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto 180px;
+}
+
+header,
+footer {
+    background-color: var(--headerFooterColor);
+    padding: 0.5em;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    text-align: right;
+    padding: 0;
+    width: 100%;
+
+    border-top: solid var(--headerFooterColor) 1px;
+    border-bottom: solid var(--headerFooterColor) 1px;
+}
+
+#hamburger-btn span:nth-child(1),
+#hamburger-btn.open span:nth-child(2) {
+    display: block;
+}
+
+#hamburger-btn span:nth-child(2),
+#hamburger-btn.open span:nth-child(1) {
+    display: none;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a {
+    padding: 0.5em;
+    display: block;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    border-top: solid var(--headerFooterColor) 1px;
+    border-bottom: solid var(--headerFooterColor) 1px;
+    text-align: right;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover,
+nav button:hover,
+#current {
+    background-color: rgb(0, 0, 0, 0.1);
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
+}
+
+/* main {
+    
+} */
+
+section {
+    border: 1px solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+form fieldset {
+    margin: 1em 0;
+    border: 1px solid black;
+    padding: 0.5em;
+    width: auto;
+}
+
+label {
+    display: block;
+}
+
+#form-info label {
+    padding-top: 1em;
+}
+
+#form-info input {
+    padding: 0.75em;
+    margin: 0.5em;
+    /* width: 88%; */
+    display: block;
+}
+
+form select,
+select option{
+    padding: 0.75em;
+    margin: 0.5em;
+}
+
+form input{
+    border-width: 1px;
+    border-style: inset;
+    border-color: rgb(155, 155, 155);
+    border-left: rgb(155, 155, 155) solid 4px;
+}
+
+form input:invalid {
+    border-left: red solid 4px;
+}
+
+form input:required:valid,
+form input.pattern:valid {
+    border-left: green solid 4px;
+}
+
+#special-instructions {
+    width: 90%;
+    height: 120px;
+}
+
+#submit {
+    padding: 0.75em;
+    border-radius: 3px;
+    border: 1px solid black;
+}
