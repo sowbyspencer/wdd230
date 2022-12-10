@@ -31,10 +31,34 @@
         <section id="weather">
             <h3>Weather</h3>
             <p id="w_temp">Temperature</p>
-            <p><img src="" alt=""></p>
-            <p id="w_description">Condition description</p>
+            <img src="https://openweathermap.org/img/w/10n.png" alt="weather-icon" id="weather-icon" height="50" width="50">
+            <p id="w_condition">Condition description</p>
             <p id="w_humidity">Humidity</p>
-            <p id="w_three_day_forcast">Three day forcast</p>
+            <table>
+                <caption>Three day forcast</caption>
+                <thead>
+                    <tr>
+                        <th>Next</th>
+                        <th>24 Hours</th>
+                        <th>25-48 Hours</th>
+                        <th>49-72 Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>High</td>
+                        <td id="day1High">day1High</td>
+                        <td id="day2High">day2High</td>
+                        <td id="day3High">day3High</td>
+                    </tr>
+                    <tr>
+                        <td>Low</td>
+                        <td id="day1Low">day1Low</td>
+                        <td id="day2Low">day2Low</td>
+                        <td id="day3Low">day3Low</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
      
         <section id="specialty">
@@ -45,5 +69,6 @@
         <p id="updated-el">Last Updated: <span id="timestamp"></span></p>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
