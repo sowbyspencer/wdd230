@@ -3,6 +3,7 @@
 	- [ ] Navigation
 		- [ ] Formatted for mobile.
 		- [x] Menu button works
+		- [ ] Every page matches
 	- [ ] Summary information about any coastal area or areas in the southern California coast of your choosing
 	- [ ] A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
 	- [ ] Social media links (at least three) (no account necessary)
@@ -25,8 +26,8 @@
 		- [x] firstname
 		- [x] email
 		- [x] phone
-		- [ ] 3 fruit selections
-			- [ ] write js file to populate select options
+		- [x] 3 fruit selections
+			- [x] write js file to populate select options
 		- [x] textarea for special instructions
 		- [ ] produce a formatted output area on this same page showing
 			- [ ] the **input** values of the order (7 inputs = _first name, email, phone, three selected fruits, and special instructions_),
@@ -37,6 +38,9 @@
 	- [ ] provides historical information about the company and area
 	- [ ] plus contact information
 	- [ ] Google Map and other relevant content.
+
+- [ ] 📄 Contact page
+	- [ ] Skeleton frame
 
 - [ ] Footer
 	- [ ] If necessary, include a **resource/attribution page** that references outside content as a link in the footer.

@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <h1>Bountiful Foods</h1>
+        <h1><a href="index.html">Bountiful Foods</a></h1>
         <nav>
             <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
             <ul id="primary-nav">
@@ -28,9 +28,9 @@
         </nav>
     </header>
     <main>
-        <section id="drink-form">
+        <section id="drink-form-section">
             <h3>Build your own speciality drink</h3>
-            <form method="get" action="">
+            <form id="drink-form" method="get" onsubmit="return false;">
                 <fieldset id="form-info">
                     <legend>Build your own speciality drink</legend>
                     <label for="fname">First Name*: 
@@ -40,22 +40,19 @@
                     <label for="email">Email*: 
                     <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required> </label>
                     <label for="tel">Phone*: 
-                    <input type="tel" id="tel" name="tel" placeholder="1235551234" required pattern="[0-9]{7,}"> </label>
+                    <input type="tel" id="tel" name="tel" placeholder="1235551234" required pattern="[0-9]{10,10}"> </label>
                 </fieldset>
                 <fieldset>
-                    <legend>Choose your fruit</legend>
+                    <legend>Choose your fruit*</legend>
                     <!-- Dropdown menu -->
-                    <select name="fruit1" required>
-                        <option value="" disabled selected hidden>Choose a fruit</option>
-                        <option value=""></option>
+                    <select name="fruit1" id="fruit1" required>
+                        <option value="" selected>Choose a fruit</option>
                     </select>
-                    <select name="fruit2" required>
-                        <option value="" disabled selected hidden>Choose a fruit</option>
-                        <option value=""></option>
+                    <select name="fruit2" id="fruit2">
+                        <option value="" selected>Choose a fruit</option>
                     </select>
-                    <select name="fruit3" required>
-                        <option value="" disabled selected hidden>Choose a fruit</option>
-                        <option value="">I</option>
+                    <select name="fruit3" id="fruit3">
+                        <option value="" selected >Choose a fruit</option>
                     </select>
                 </fieldset>
                 <fieldset>
@@ -64,13 +61,17 @@
                     <textarea name="special-instructions" id="special-instructions"></textarea> </label>
                 </fieldset>
                 <input type="hidden" name="load-date-time" id="load-date-time" value="">
-                <input type="submit" value="Sumbit Your Drink" id="submit" name="submit">
+                <input id="submit" type="submit" value="Sumbit Your Drink"> 
             </form>
+        </section>
+        <section id="response" class="hidden">
+
         </section>
     </main>
     <footer>
         <p id="updated-el">Last Updated: <span id="timestamp"></span></p>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/fresh.js"></script>
 </body>
 </html>

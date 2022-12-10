@@ -26,8 +26,8 @@
         padding: 1em 0;
         border-top: none;
         border-bottom: none;
-        border-left: solid white 1px;
-        border-right: solid white 1px;
+        border-left: solid var(--headerFooterColor) 1px;
+        border-right: solid var(--headerFooterColor) 1px;
         text-align: center;
     }
 
@@ -36,7 +36,7 @@
     #current {
         border-top: none;
         border-bottom: none;
-        border-left: solid white 1px;
-        border-right: solid white 1px;
+        border-left: solid white 2px;
+        border-right: solid white 2px;
     }
 }
