@@ -8,6 +8,7 @@
 
 html{
     scroll-behavior: smooth;
+    min-width: 320px;
 }
 
 body {
@@ -29,6 +30,13 @@ footer {
 
 header h1{
     margin: 0;
+    margin-left: 0.25em;
+    margin-top: 0.25em;
+}
+
+header div{
+    display: flex;
+    align-items:flex-start;
 }
 
 nav button {
@@ -76,13 +84,24 @@ nav ul li a {
     background-color: rgb(0, 0, 0, 0.1);
 }
 
-nav ul li a:hover,
+nav a:hover,
 nav button:hover,
 #current {
     background-color: rgb(0, 0, 0, 0.1);
     border-top: solid white 1px;
     border-bottom: solid white 1px;
 }
+
+header img{
+    background-color: rgb(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+header img:hover{
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
 
 /* main {
     

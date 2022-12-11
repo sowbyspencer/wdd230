@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
-    <link rel="shortcut icon" href="favicon48.ico">
+    <link rel="shortcut icon" href="images/favicon48.ico">
     <title>Bountiful Foods</title>
 </head>
 <body>
     <header>
-        <h1><a href="index.html">Bountiful Foods</a></h1>
+        <div>
+            <a href="index.html"><img src="images/favicon48.ico" alt="logo" loading="lazy" height="48" width="48"></a>
+            <h1>Bountiful Foods</h1>
+        </div>
         <nav>
             <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
             <ul id="primary-nav">
@@ -29,9 +32,9 @@
     </header>
     <main>
         <section id="weather">
-            <h3>Weather</h3>
+            <h2>Weather</h2>
             <p id="w_temp">Temperature</p>
-            <img src="https://openweathermap.org/img/w/10n.png" alt="weather-icon" id="weather-icon" height="50" width="50">
+            <img src="https://via.placeholder.com/50" alt="weather-icon" id="weather-icon" height="50" width="50" loading="lazy">
             <p id="w_condition">Condition description</p>
             <p id="w_humidity">Humidity</p>
             <table>
@@ -62,11 +65,12 @@
         </section>
      
         <section id="specialty">
-            <h3><a href="fresh.html" class="button">Specialty Drinks</a></h3>
+            <h2><a href="fresh.html" class="button">Specialty Drinks</a></h2>
         </section>
     </main>
     <footer>
         <p id="updated-el">Last Updated: <span id="timestamp"></span></p>
+        <p><a href="resources.html">Resource/Attribution Page</a></p>
     </footer>
     <script src="scripts/script.js"></script>
     <script src="scripts/weather.js"></script>

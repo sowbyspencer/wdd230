@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bountiful Foods is small business specializing in organic, locally grown foods.">
+    <meta name="description" content="Bountiful Foods is small business specializing in organic, locally grown foods. You can create your own specialty drink">
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
-    <link rel="shortcut icon" href="favicon48.ico">
-    <title>Bountiful Foods</title>
+    <link rel="shortcut icon" href="images/favicon48.ico">
+    <title>Bountiful Foods : Fresh</title>
 </head>
 <body>
     <header>
-        <h1><a href="index.html">Bountiful Foods</a></h1>
+        <div>
+            <a href="index.html"><img src="images/favicon48.ico" alt="logo" loading="lazy" height="48" width="48"></a>
+            <h1>Bountiful Foods</h1>
+        </div>
         <nav>
             <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
             <ul id="primary-nav">
@@ -29,7 +32,7 @@
     </header>
     <main>
         <section id="drink-form-section">
-            <h3>Build your own speciality drink</h3>
+            <h2>Build your own speciality drink</h2>
             <form id="drink-form" method="get" onsubmit="return false;">
                 <fieldset id="form-info">
                     <legend>Build your own speciality drink</legend>
@@ -70,6 +73,7 @@
     </main>
     <footer>
         <p id="updated-el">Last Updated: <span id="timestamp"></span></p>
+        <p><a href="resources.html">Resource/Attribution Page</a></p>
     </footer>
     <script src="scripts/script.js"></script>
     <script src="scripts/fresh.js"></script>
