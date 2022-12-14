@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,11 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link rel="shortcut icon" href="images/favicon48.ico">
     <title>Bountiful Foods</title>
 </head>
+
 <body>
     <header>
         <div>
@@ -26,19 +29,62 @@
                 <li id="current"><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li><a href="about-us.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
             </ul>
         </nav>
     </header>
     <main>
+        <section id="area-info">
+            <h2>San Diego Coastal Area</h2>
+            <p>The San Diego coastal area is a beautiful and popular destination in
+                Southern California. Known for its warm weather, sandy beaches, and
+                diverse marine life, the area is a top choice for tourists and locals
+                alike.
+            </p>
+
+            <h3>Attractions</h3>
+            <p>There are many attractions to enjoy in the San Diego coastal area,
+                including SeaWorld, the San Diego Zoo, and the USS Midway Museum. The
+                area is also home to several state parks, such as Torrey Pines State
+                Natural Reserve and Cabrillo National Monument, where visitors can
+                hike, bike, and explore the natural beauty of the region.
+            </p>
+
+            <h3>Beaches</h3>
+            <p>The San Diego coastal area has many beautiful beaches to choose from,
+                each with its own unique character and attractions. Some of the most
+                popular beaches in the area include La Jolla Shores, Pacific Beach,
+                and Mission Beach. These beaches offer a variety of activities, such
+                as swimming, surfing, and sunbathing, as well as a range of dining and
+                shopping options.
+            </p>
+
+            <h3>Marine Life</h3>
+            <p>The San Diego coastal area is home to a diverse array of marine life,
+                including seals, sea lions, dolphins, and whales. Visitors to the area
+                can take boat tours to see these animals in their natural habitats, or
+                visit one of the many aquariums and marine centers in the area to
+                learn more about the ocean and its inhabitants.
+            </p>
+
+            <h3>Climate</h3>
+            <p>The San Diego coastal area has a Mediterranean-like climate, with
+                warm, dry summers and mild, wet winters. The area typically has low
+                humidity and plenty of sunshine, making it a great destination for
+                outdoor activities and beach-going year-round.
+            </p>
+        </section>
         <section id="weather">
             <h2>Weather</h2>
             <p id="w_temp">Temperature</p>
-            <img src="https://via.placeholder.com/50" alt="weather-icon" id="weather-icon" height="50" width="50" loading="lazy">
+            <img src="https://via.placeholder.com/50" alt="weather-icon" id="weather-icon" height="50" width="50"
+                loading="lazy">
             <p id="w_condition">Condition description</p>
             <p id="w_humidity">Humidity</p>
             <table>
-                <caption>Three day forcast</caption>
+                <caption>
+                    Three day forcast
+                </caption>
                 <thead>
                     <tr>
                         <th>Next</th>
@@ -63,16 +109,33 @@
                 </tbody>
             </table>
         </section>
-     
+
         <section id="specialty">
+            <h2>Make Your Own Fruit Mix</h2>
+            <p>Tired of buying pre-made fruit mixes from the store? Why not make your own and enjoy the freshest, most
+                delicious fruit mix around?
+            </p>
+
+            <p>All you need is a selection of your favorite fruits and a little bit of time. Try mixing together
+                berries, melon, pineapple, and grapes for a sweet and refreshing fruit mix. Or, go for a tropical twist
+                with mango, papaya, and coconut. The possibilities are endless!
+            </p>
+
+            <p>So why not give it a try and make your own fruit mix today? Your taste buds will thank you!</p>
+
             <h2><a href="fresh.html" class="button">Specialty Drinks</a></h2>
         </section>
     </main>
     <footer>
         <p id="updated-el">Last Updated: <span id="timestamp"></span></p>
+        <p>
+            You can contact us by phone at <a href="tel:555-555-5555">555-555-5555</a> or email at <a
+                href="mailto:info@fruitcompany.com">info@bountifulfoods.com</a>
+        </p>
         <p><a href="resources.html">Resource/Attribution Page</a></p>
     </footer>
     <script src="scripts/script.js"></script>
     <script src="scripts/weather.js"></script>
 </body>
+
 </html>

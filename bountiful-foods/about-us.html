@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,11 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link rel="shortcut icon" href="images/favicon48.ico">
     <title>Bountiful Foods : About Us</title>
 </head>
+
 <body>
     <header>
         <div>
@@ -26,19 +29,44 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li id="current"><a href="about-us.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="map">
+            <h2>Where We Are</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12900.827188878384!2d-117.1611103!3d32.715738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdb3c4f3bb3f7%3A0xecf929bf2c2f4cc!2sSan+Diego%2C+CA!5e0!3m2!1sen!2sus!4v1569648922151!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+        <section id="about-us">
             <h2>About Us</h2>
+
+            <p>Founded in 1950, our family-owned fruit company has been providing the freshest and highest quality
+                fruits to our community for over 70 years. Located in the heart of sunny San Diego, our orchards are
+                surrounded by the beautiful mountains and fertile soils that make our region known for its delicious
+                fruits. </p>
+            <p>We take pride in our dedication to sustainable farming practices and commitment to providing our
+                customers with the best possible fruit. From our juicy peaches and plump strawberries, to our crisp
+                apples and tangy citrus, we have a variety of fruits to satisfy any palate. </p>
+            <p>We invite you to visit our orchards and taste the difference for yourself. You can find us at:</p>
+            <p>Bountiful Foods<br>
+                123 Main Street<br>
+                Anytown, CA 99999</p>
+            <p>You can also contact us by phone at <a href="tel:555-555-5555">555-555-5555</a> or email at <a
+                    href="mailto:info@fruitcompany.com">info@bountifulfoods.com</a>.</p>
         </section>
     </main>
     <footer>
         <p id="updated-el">Last Updated: <span id="timestamp"></span></p>
+        <p>
+            You can contact us by phone at <a href="tel:555-555-5555">555-555-5555</a> or email at <a
+                href="mailto:info@fruitcompany.com">info@bountifulfoods.com</a>
+        </p>
         <p><a href="resources.html">Resource/Attribution Page</a></p>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
+
 </html>

@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bountiful Foods is small business specializing in organic, locally grown foods. You can create your own specialty drink">
+    <meta name="description"
+        content="Bountiful Foods is small business specializing in organic, locally grown foods. You can create your own specialty drink">
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     <link rel="shortcut icon" href="images/favicon48.ico">
     <title>Bountiful Foods : Fresh</title>
 </head>
+
 <body>
     <header>
         <div>
@@ -26,7 +30,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li id="current"><a href="fresh.html">Fresh</a></li>
                 <li><a href="about-us.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
             </ul>
         </nav>
     </header>
@@ -36,14 +40,15 @@
             <form id="drink-form" method="get" onsubmit="return false;">
                 <fieldset id="form-info">
                     <legend>Build your own speciality drink</legend>
-                    <label for="fname">First Name*: 
-                    <input type="text" id="fname" name="fname" placeholder="John" required> </label>
-                    <label for="lname">Last Name: 
-                    <input type="text" id="lname" name="lname" placeholder="Doe"> </label>
-                    <label for="email">Email*: 
-                    <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required> </label>
-                    <label for="tel">Phone*: 
-                    <input type="tel" id="tel" name="tel" placeholder="1235551234" required pattern="[0-9]{10,10}"> </label>
+                    <label for="fname">First Name*:
+                        <input type="text" id="fname" name="fname" placeholder="John" required> </label>
+                    <label for="lname">Last Name:
+                        <input type="text" id="lname" name="lname" placeholder="Doe"> </label>
+                    <label for="email">Email*:
+                        <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required> </label>
+                    <label for="tel">Phone*:
+                        <input type="tel" id="tel" name="tel" placeholder="1235551234" required pattern="[0-9]{10,10}">
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend>Choose your fruit*</legend>
@@ -55,27 +60,32 @@
                         <option value="" selected>Choose a fruit</option>
                     </select>
                     <select name="fruit3" id="fruit3">
-                        <option value="" selected >Choose a fruit</option>
+                        <option value="" selected>Choose a fruit</option>
                     </select>
                 </fieldset>
                 <fieldset>
                     <legend>Special Instructions</legend>
-                    <label for="special-instructions">Let us know any special instructions that makes this drink yours: 
-                    <textarea name="special-instructions" id="special-instructions"></textarea> </label>
+                    <label for="special-instructions">Let us know any special instructions that makes this drink yours:
+                        <textarea name="special-instructions" id="special-instructions"></textarea> </label>
                 </fieldset>
                 <input type="hidden" name="load-date-time" id="load-date-time" value="">
-                <input id="submit" type="submit" value="Sumbit Your Drink"> 
+                <input id="submit" type="submit" value="Sumbit Your Drink">
             </form>
         </section>
         <section id="response" class="hidden">
-
+            <h2>response</h2>
         </section>
     </main>
     <footer>
         <p id="updated-el">Last Updated: <span id="timestamp"></span></p>
+        <p>
+            You can contact us by phone at <a href="tel:555-555-5555">555-555-5555</a> or email at <a
+                href="mailto:info@fruitcompany.com">info@bountifulfoods.com</a>
+        </p>
         <p><a href="resources.html">Resource/Attribution Page</a></p>
     </footer>
     <script src="scripts/script.js"></script>
     <script src="scripts/fresh.js"></script>
 </body>
+
 </html>

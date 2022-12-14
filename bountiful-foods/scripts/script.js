@@ -27,7 +27,7 @@ if (document.URL.substring(document.URL.length - 10) == "index.html") {
 
     /* Creating a paragraph element and then adding text to it. */
     const pEl = document.createElement("p");
-    pEl.textContent = `You have submitted ${specialtyDrinkCount} Specialty Drinks`;
+    pEl.innerHTML = `You have submitted <strong>${specialtyDrinkCount}</strong> Specialty Drinks`;
 
     /* Getting the element with the id of specialty and then appending the pEl to it. */
     const specialtySection = document.querySelector("#specialty");
